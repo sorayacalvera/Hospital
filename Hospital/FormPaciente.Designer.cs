@@ -1,6 +1,6 @@
 ﻿namespace Hospital
 {
-    partial class AltaPaciente
+    partial class FormPaciente
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AltaPaciente));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormPaciente));
             this.butSalirPaciente = new System.Windows.Forms.Button();
             this.butGuardarPaciente = new System.Windows.Forms.Button();
             this.txtNumColegiado = new System.Windows.Forms.TextBox();
@@ -40,6 +40,9 @@
             this.labApellidoPaciente = new System.Windows.Forms.Label();
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.labNombrePaciente = new System.Windows.Forms.Label();
+            this.labListaPacientes = new System.Windows.Forms.Label();
+            this.listBoxListaPacientes = new System.Windows.Forms.ListBox();
+            this.butEliminarPaciente = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // butSalirPaciente
@@ -55,7 +58,7 @@
             // 
             // butGuardarPaciente
             // 
-            this.butGuardarPaciente.Location = new System.Drawing.Point(452, 403);
+            this.butGuardarPaciente.Location = new System.Drawing.Point(452, 329);
             this.butGuardarPaciente.Name = "butGuardarPaciente";
             this.butGuardarPaciente.Size = new System.Drawing.Size(75, 23);
             this.butGuardarPaciente.TabIndex = 20;
@@ -66,7 +69,7 @@
             // 
             // txtNumColegiado
             // 
-            this.txtNumColegiado.Location = new System.Drawing.Point(309, 214);
+            this.txtNumColegiado.Location = new System.Drawing.Point(309, 159);
             this.txtNumColegiado.Name = "txtNumColegiado";
             this.txtNumColegiado.Size = new System.Drawing.Size(228, 22);
             this.txtNumColegiado.TabIndex = 19;
@@ -76,7 +79,7 @@
             // 
             this.labNumHistoriaClinica.AutoSize = true;
             this.labNumHistoriaClinica.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labNumHistoriaClinica.Location = new System.Drawing.Point(98, 214);
+            this.labNumHistoriaClinica.Location = new System.Drawing.Point(98, 160);
             this.labNumHistoriaClinica.Name = "labNumHistoriaClinica";
             this.labNumHistoriaClinica.Size = new System.Drawing.Size(205, 18);
             this.labNumHistoriaClinica.TabIndex = 16;
@@ -96,14 +99,14 @@
             // 
             // txtDNI
             // 
-            this.txtDNI.Location = new System.Drawing.Point(200, 342);
+            this.txtDNI.Location = new System.Drawing.Point(210, 289);
             this.txtDNI.Name = "txtDNI";
             this.txtDNI.Size = new System.Drawing.Size(327, 22);
             this.txtDNI.TabIndex = 27;
             // 
             // txtApellido
             // 
-            this.txtApellido.Location = new System.Drawing.Point(200, 300);
+            this.txtApellido.Location = new System.Drawing.Point(210, 244);
             this.txtApellido.Name = "txtApellido";
             this.txtApellido.Size = new System.Drawing.Size(327, 22);
             this.txtApellido.TabIndex = 26;
@@ -112,7 +115,7 @@
             // 
             this.labDNIPaciente.AutoSize = true;
             this.labDNIPaciente.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labDNIPaciente.Location = new System.Drawing.Point(98, 346);
+            this.labDNIPaciente.Location = new System.Drawing.Point(101, 290);
             this.labDNIPaciente.Name = "labDNIPaciente";
             this.labDNIPaciente.Size = new System.Drawing.Size(38, 18);
             this.labDNIPaciente.TabIndex = 25;
@@ -122,7 +125,7 @@
             // 
             this.labApellidoPaciente.AutoSize = true;
             this.labApellidoPaciente.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labApellidoPaciente.Location = new System.Drawing.Point(98, 304);
+            this.labApellidoPaciente.Location = new System.Drawing.Point(101, 244);
             this.labApellidoPaciente.Name = "labApellidoPaciente";
             this.labApellidoPaciente.Size = new System.Drawing.Size(79, 18);
             this.labApellidoPaciente.TabIndex = 24;
@@ -130,7 +133,7 @@
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(200, 258);
+            this.txtNombre.Location = new System.Drawing.Point(210, 200);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(327, 22);
             this.txtNombre.TabIndex = 23;
@@ -139,11 +142,40 @@
             // 
             this.labNombrePaciente.AutoSize = true;
             this.labNombrePaciente.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labNombrePaciente.Location = new System.Drawing.Point(98, 259);
+            this.labNombrePaciente.Location = new System.Drawing.Point(101, 200);
             this.labNombrePaciente.Name = "labNombrePaciente";
             this.labNombrePaciente.Size = new System.Drawing.Size(76, 18);
             this.labNombrePaciente.TabIndex = 22;
             this.labNombrePaciente.Text = "Nombre: ";
+            // 
+            // labListaPacientes
+            // 
+            this.labListaPacientes.AutoSize = true;
+            this.labListaPacientes.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labListaPacientes.Location = new System.Drawing.Point(37, 385);
+            this.labListaPacientes.Name = "labListaPacientes";
+            this.labListaPacientes.Size = new System.Drawing.Size(176, 27);
+            this.labListaPacientes.TabIndex = 28;
+            this.labListaPacientes.Tag = "";
+            this.labListaPacientes.Text = "Lista Pacientes";
+            // 
+            // listBoxListaPacientes
+            // 
+            this.listBoxListaPacientes.FormattingEnabled = true;
+            this.listBoxListaPacientes.ItemHeight = 16;
+            this.listBoxListaPacientes.Location = new System.Drawing.Point(101, 425);
+            this.listBoxListaPacientes.Name = "listBoxListaPacientes";
+            this.listBoxListaPacientes.Size = new System.Drawing.Size(482, 260);
+            this.listBoxListaPacientes.TabIndex = 29;
+            // 
+            // butEliminarPaciente
+            // 
+            this.butEliminarPaciente.Location = new System.Drawing.Point(461, 692);
+            this.butEliminarPaciente.Name = "butEliminarPaciente";
+            this.butEliminarPaciente.Size = new System.Drawing.Size(75, 23);
+            this.butEliminarPaciente.TabIndex = 30;
+            this.butEliminarPaciente.Text = "button1";
+            this.butEliminarPaciente.UseVisualStyleBackColor = true;
             // 
             // AltaPaciente
             // 
@@ -153,6 +185,9 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(982, 753);
+            this.Controls.Add(this.butEliminarPaciente);
+            this.Controls.Add(this.listBoxListaPacientes);
+            this.Controls.Add(this.labListaPacientes);
             this.Controls.Add(this.txtDNI);
             this.Controls.Add(this.txtApellido);
             this.Controls.Add(this.labDNIPaciente);
@@ -185,5 +220,8 @@
         private System.Windows.Forms.Label labApellidoPaciente;
         private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.Label labNombrePaciente;
+        private System.Windows.Forms.Label labListaPacientes;
+        private System.Windows.Forms.ListBox listBoxListaPacientes;
+        private System.Windows.Forms.Button butEliminarPaciente;
     }
 }

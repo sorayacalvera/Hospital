@@ -21,19 +21,19 @@ namespace Hospital
 
         private void butAltaMedico_Click(object sender, EventArgs e)
         {
-            AltaMedico altaMedico = new AltaMedico();
+            AltaMedico altaMedico = new AltaMedico(hospital);
             altaMedico.ShowDialog();
         }
 
         private void butAltaPaciente_Click(object sender, EventArgs e)
         {
-            AltaPaciente altaPaciente = new AltaPaciente();
-            altaPaciente.ShowDialog();
+            FormPaciente formPaciente = new FormPaciente(hospital);
+            formPaciente.ShowDialog();
         }
 
         private void butAltaPersonalAdministrativo_Click(object sender, EventArgs e)
         {
-            AltaPersAdmi altaPersonalAdministrativo = new AltaPersAdmi();
+            AltaPersAdmi altaPersonalAdministrativo = new AltaPersAdmi(hospital);
             altaPersonalAdministrativo.ShowDialog();
         }
 
@@ -55,11 +55,6 @@ namespace Hospital
             totalPersonasHospital.ShowDialog();
         }
 
-        private void butEliminarPaciente_Click(object sender, EventArgs e)
-        {
-            EliminarPaciente eliminarPaciente = new EliminarPaciente();
-            eliminarPaciente.ShowDialog();
-        }
         private void butSalir_Click(object sender, EventArgs e)
         {
             this.Close();

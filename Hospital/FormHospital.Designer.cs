@@ -94,7 +94,6 @@
             resources.ApplyResources(this.butEliminarPaciente, "butEliminarPaciente");
             this.butEliminarPaciente.Name = "butEliminarPaciente";
             this.butEliminarPaciente.UseVisualStyleBackColor = false;
-            this.butEliminarPaciente.Click += new System.EventHandler(this.butEliminarPaciente_Click);
             // 
             // butSalir
             // 

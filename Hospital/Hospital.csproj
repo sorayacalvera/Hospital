@@ -63,23 +63,17 @@
     <Compile Include="FormHospital.Designer.cs">
       <DependentUpon>FormHospital.cs</DependentUpon>
     </Compile>
-    <Compile Include="EliminarPaciente.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="EliminarPaciente.Designer.cs">
-      <DependentUpon>EliminarPaciente.cs</DependentUpon>
-    </Compile>
     <Compile Include="AltaMedico.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="AltaMedico.Designer.cs">
       <DependentUpon>AltaMedico.cs</DependentUpon>
     </Compile>
-    <Compile Include="AltaPaciente.cs">
+    <Compile Include="FormPaciente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AltaPaciente.Designer.cs">
-      <DependentUpon>AltaPaciente.cs</DependentUpon>
+    <Compile Include="FormPaciente.Designer.cs">
+      <DependentUpon>FormPaciente.cs</DependentUpon>
     </Compile>
     <Compile Include="AltaPersAdmi.cs">
       <SubType>Form</SubType>
@@ -104,8 +98,8 @@
     <EmbeddedResource Include="AltaMedico.resx">
       <DependentUpon>AltaMedico.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AltaPaciente.resx">
-      <DependentUpon>AltaPaciente.cs</DependentUpon>
+    <EmbeddedResource Include="FormPaciente.resx">
+      <DependentUpon>FormPaciente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AltaPersAdmi.resx">
       <DependentUpon>AltaPersAdmi.cs</DependentUpon>

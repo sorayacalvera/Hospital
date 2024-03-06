@@ -44,7 +44,6 @@ namespace Hospital
 
                 Medico medico1 = new Medico(numCol, nomMedic, apelliMedic, dniMedic);
                 Medicos.Add(medico1);
-
             }
 
             public void AltaAdministrativo(int numeroTrabajador, string nombre,

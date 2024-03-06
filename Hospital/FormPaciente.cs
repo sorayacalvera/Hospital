@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace Hospital
 {
-    public partial class AltaPaciente : Form
+    public partial class FormPaciente : Form
     {
         Hospital hospital;
-        public AltaPaciente(Hospital hospital)
+        public FormPaciente(Hospital hospital)
         {
             InitializeComponent();
             this.hospital = hospital;

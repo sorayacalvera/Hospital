@@ -8,7 +8,7 @@ namespace Hospital
 {
     internal static class Program
     {
-        static Hospital hospital = new Hospital();
+        public static Hospital hospital = new Hospital();
         /// <summary>
         /// Punto de entrada principal para la aplicación.
         /// </summary>
@@ -18,7 +18,7 @@ namespace Hospital
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new FormHospital(hospital));
-            
+        }  
             static void AltaMedico()
             {
 
@@ -83,6 +83,4 @@ namespace Hospital
                 hospital.ListarPacientesMedico();
             }
         }
-    }
-    }
 }
