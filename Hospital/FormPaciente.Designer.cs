@@ -152,7 +152,7 @@
             // 
             this.labListaPacientes.AutoSize = true;
             this.labListaPacientes.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labListaPacientes.Location = new System.Drawing.Point(37, 385);
+            this.labListaPacientes.Location = new System.Drawing.Point(37, 361);
             this.labListaPacientes.Name = "labListaPacientes";
             this.labListaPacientes.Size = new System.Drawing.Size(176, 27);
             this.labListaPacientes.TabIndex = 28;
@@ -163,21 +163,21 @@
             // 
             this.listBoxListaPacientes.FormattingEnabled = true;
             this.listBoxListaPacientes.ItemHeight = 16;
-            this.listBoxListaPacientes.Location = new System.Drawing.Point(101, 425);
+            this.listBoxListaPacientes.Location = new System.Drawing.Point(104, 401);
             this.listBoxListaPacientes.Name = "listBoxListaPacientes";
             this.listBoxListaPacientes.Size = new System.Drawing.Size(482, 260);
             this.listBoxListaPacientes.TabIndex = 29;
             // 
             // butEliminarPaciente
             // 
-            this.butEliminarPaciente.Location = new System.Drawing.Point(461, 692);
+            this.butEliminarPaciente.Location = new System.Drawing.Point(440, 667);
             this.butEliminarPaciente.Name = "butEliminarPaciente";
-            this.butEliminarPaciente.Size = new System.Drawing.Size(75, 23);
+            this.butEliminarPaciente.Size = new System.Drawing.Size(125, 39);
             this.butEliminarPaciente.TabIndex = 30;
-            this.butEliminarPaciente.Text = "button1";
+            this.butEliminarPaciente.Text = "Eliminar Paciente";
             this.butEliminarPaciente.UseVisualStyleBackColor = true;
             // 
-            // AltaPaciente
+            // FormPaciente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -200,7 +200,7 @@
             this.Controls.Add(this.labNumHistoriaClinica);
             this.Controls.Add(this.labAltaPaciente);
             this.DoubleBuffered = true;
-            this.Name = "AltaPaciente";
+            this.Name = "FormPaciente";
             this.Text = "Form4";
             this.ResumeLayout(false);
             this.PerformLayout();

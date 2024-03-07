@@ -48,6 +48,12 @@
   <ItemGroup>
     <Compile Include="Administrativo.cs" />
     <Compile Include="Hospital.cs" />
+    <Compile Include="ListaMedicoPaciente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListaMedicoPaciente.Designer.cs">
+      <DependentUpon>ListaMedicoPaciente.cs</DependentUpon>
+    </Compile>
     <Compile Include="Medico.cs" />
     <Compile Include="Paciente.cs" />
     <Compile Include="Persona.cs" />
@@ -81,18 +87,6 @@
     <Compile Include="AltaPersAdmi.Designer.cs">
       <DependentUpon>AltaPersAdmi.cs</DependentUpon>
     </Compile>
-    <Compile Include="ListarMedicos.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ListarMedicos.Designer.cs">
-      <DependentUpon>ListarMedicos.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ListarPacientesMedico.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ListarPacientesMedico.Designer.cs">
-      <DependentUpon>ListarPacientesMedico.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AltaMedico.resx">
@@ -106,6 +100,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormHospital.resx">
       <DependentUpon>FormHospital.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListaMedicoPaciente.resx">
+      <DependentUpon>ListaMedicoPaciente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

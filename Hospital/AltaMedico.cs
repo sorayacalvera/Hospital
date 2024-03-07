@@ -31,9 +31,13 @@ namespace Hospital
             int numColegiado = int.Parse(txtNumColegiado.Text);
             txtDNI.Text = string.Empty;
             int dniMedico = int.Parse(txtDNI.Text);
-            
-            hospital.AltaMedico(numColegiado, txtNombre.Text, txtApellido.Text, dniMedico);
+
+            Medico medico1 = new Medico(numColegiado, txtNombre.Text, txtApellido.Text, dniMedico);
+
+            hospital.AltaMedico(medico1);
         }
+
+        //Hacer lo mismo con paciente y administrativo
 
     }
 }

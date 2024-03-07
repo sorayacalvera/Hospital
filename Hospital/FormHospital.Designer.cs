@@ -30,17 +30,12 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormHospital));
             this.labtitle = new System.Windows.Forms.Label();
-            this.butAltaMedico = new System.Windows.Forms.Button();
-            this.butAltaPaciente = new System.Windows.Forms.Button();
-            this.butAltaPersonalAdministrativo = new System.Windows.Forms.Button();
-            this.butListarMedicos = new System.Windows.Forms.Button();
-            this.butListarPacientesMedico = new System.Windows.Forms.Button();
-            this.butEliminarPaciente = new System.Windows.Forms.Button();
+            this.butMedico = new System.Windows.Forms.Button();
+            this.butPaciente = new System.Windows.Forms.Button();
+            this.butPersonalAdministrativo = new System.Windows.Forms.Button();
             this.butSalir = new System.Windows.Forms.Button();
-            this.butTotalPersonasHospital = new System.Windows.Forms.Button();
-            this.labNuevasAltas = new System.Windows.Forms.Label();
-            this.labListas = new System.Windows.Forms.Label();
-            this.labEliminar = new System.Windows.Forms.Label();
+            this.labTotalPersonasHospital = new System.Windows.Forms.Label();
+            this.listBoxPersonasDelHospital = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // labtitle
@@ -48,52 +43,29 @@
             resources.ApplyResources(this.labtitle, "labtitle");
             this.labtitle.Name = "labtitle";
             // 
-            // butAltaMedico
+            // butMedico
             // 
-            this.butAltaMedico.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            resources.ApplyResources(this.butAltaMedico, "butAltaMedico");
-            this.butAltaMedico.Name = "butAltaMedico";
-            this.butAltaMedico.UseVisualStyleBackColor = false;
-            this.butAltaMedico.Click += new System.EventHandler(this.butAltaMedico_Click);
+            this.butMedico.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            resources.ApplyResources(this.butMedico, "butMedico");
+            this.butMedico.Name = "butMedico";
+            this.butMedico.UseVisualStyleBackColor = false;
+            this.butMedico.Click += new System.EventHandler(this.butMedico_Click_1);
             // 
-            // butAltaPaciente
+            // butPaciente
             // 
-            this.butAltaPaciente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            resources.ApplyResources(this.butAltaPaciente, "butAltaPaciente");
-            this.butAltaPaciente.Name = "butAltaPaciente";
-            this.butAltaPaciente.UseVisualStyleBackColor = false;
-            this.butAltaPaciente.Click += new System.EventHandler(this.butAltaPaciente_Click);
+            this.butPaciente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            resources.ApplyResources(this.butPaciente, "butPaciente");
+            this.butPaciente.Name = "butPaciente";
+            this.butPaciente.UseVisualStyleBackColor = false;
+            this.butPaciente.Click += new System.EventHandler(this.butPaciente_Click_1);
             // 
-            // butAltaPersonalAdministrativo
+            // butPersonalAdministrativo
             // 
-            this.butAltaPersonalAdministrativo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            resources.ApplyResources(this.butAltaPersonalAdministrativo, "butAltaPersonalAdministrativo");
-            this.butAltaPersonalAdministrativo.Name = "butAltaPersonalAdministrativo";
-            this.butAltaPersonalAdministrativo.UseVisualStyleBackColor = false;
-            this.butAltaPersonalAdministrativo.Click += new System.EventHandler(this.butAltaPersonalAdministrativo_Click);
-            // 
-            // butListarMedicos
-            // 
-            this.butListarMedicos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            resources.ApplyResources(this.butListarMedicos, "butListarMedicos");
-            this.butListarMedicos.Name = "butListarMedicos";
-            this.butListarMedicos.UseVisualStyleBackColor = false;
-            this.butListarMedicos.Click += new System.EventHandler(this.butListarMedicos_Click);
-            // 
-            // butListarPacientesMedico
-            // 
-            this.butListarPacientesMedico.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            resources.ApplyResources(this.butListarPacientesMedico, "butListarPacientesMedico");
-            this.butListarPacientesMedico.Name = "butListarPacientesMedico";
-            this.butListarPacientesMedico.UseVisualStyleBackColor = false;
-            this.butListarPacientesMedico.Click += new System.EventHandler(this.butListarPacientesMedico_Click);
-            // 
-            // butEliminarPaciente
-            // 
-            this.butEliminarPaciente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            resources.ApplyResources(this.butEliminarPaciente, "butEliminarPaciente");
-            this.butEliminarPaciente.Name = "butEliminarPaciente";
-            this.butEliminarPaciente.UseVisualStyleBackColor = false;
+            this.butPersonalAdministrativo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            resources.ApplyResources(this.butPersonalAdministrativo, "butPersonalAdministrativo");
+            this.butPersonalAdministrativo.Name = "butPersonalAdministrativo";
+            this.butPersonalAdministrativo.UseVisualStyleBackColor = false;
+            this.butPersonalAdministrativo.Click += new System.EventHandler(this.butPersonalAdministrativo_Click);
             // 
             // butSalir
             // 
@@ -103,48 +75,31 @@
             this.butSalir.UseVisualStyleBackColor = false;
             this.butSalir.Click += new System.EventHandler(this.butSalir_Click);
             // 
-            // butTotalPersonasHospital
+            // labTotalPersonasHospital
             // 
-            this.butTotalPersonasHospital.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            resources.ApplyResources(this.butTotalPersonasHospital, "butTotalPersonasHospital");
-            this.butTotalPersonasHospital.Name = "butTotalPersonasHospital";
-            this.butTotalPersonasHospital.UseVisualStyleBackColor = false;
-            this.butTotalPersonasHospital.Click += new System.EventHandler(this.butTotalPersonasHospital_Click);
+            resources.ApplyResources(this.labTotalPersonasHospital, "labTotalPersonasHospital");
+            this.labTotalPersonasHospital.Name = "labTotalPersonasHospital";
             // 
-            // labNuevasAltas
+            // listBoxPersonasDelHospital
             // 
-            resources.ApplyResources(this.labNuevasAltas, "labNuevasAltas");
-            this.labNuevasAltas.Name = "labNuevasAltas";
+            this.listBoxPersonasDelHospital.FormattingEnabled = true;
+            resources.ApplyResources(this.listBoxPersonasDelHospital, "listBoxPersonasDelHospital");
+            this.listBoxPersonasDelHospital.Name = "listBoxPersonasDelHospital";
             // 
-            // labListas
-            // 
-            resources.ApplyResources(this.labListas, "labListas");
-            this.labListas.Name = "labListas";
-            // 
-            // labEliminar
-            // 
-            resources.ApplyResources(this.labEliminar, "labEliminar");
-            this.labEliminar.Name = "labEliminar";
-            // 
-            // Hospital
+            // FormHospital
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.Controls.Add(this.labEliminar);
-            this.Controls.Add(this.labListas);
-            this.Controls.Add(this.labNuevasAltas);
-            this.Controls.Add(this.butTotalPersonasHospital);
+            this.Controls.Add(this.listBoxPersonasDelHospital);
+            this.Controls.Add(this.labTotalPersonasHospital);
             this.Controls.Add(this.butSalir);
-            this.Controls.Add(this.butEliminarPaciente);
-            this.Controls.Add(this.butListarPacientesMedico);
-            this.Controls.Add(this.butListarMedicos);
-            this.Controls.Add(this.butAltaPersonalAdministrativo);
-            this.Controls.Add(this.butAltaPaciente);
-            this.Controls.Add(this.butAltaMedico);
+            this.Controls.Add(this.butPersonalAdministrativo);
+            this.Controls.Add(this.butPaciente);
+            this.Controls.Add(this.butMedico);
             this.Controls.Add(this.labtitle);
             this.DoubleBuffered = true;
-            this.Name = "Hospital";
+            this.Name = "FormHospital";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -153,17 +108,12 @@
         #endregion
 
         private System.Windows.Forms.Label labtitle;
-        private System.Windows.Forms.Button butAltaMedico;
-        private System.Windows.Forms.Button butAltaPaciente;
-        private System.Windows.Forms.Button butAltaPersonalAdministrativo;
-        private System.Windows.Forms.Button butListarMedicos;
-        private System.Windows.Forms.Button butListarPacientesMedico;
-        private System.Windows.Forms.Button butEliminarPaciente;
+        private System.Windows.Forms.Button butMedico;
+        private System.Windows.Forms.Button butPaciente;
+        private System.Windows.Forms.Button butPersonalAdministrativo;
         private System.Windows.Forms.Button butSalir;
-        private System.Windows.Forms.Button butTotalPersonasHospital;
-        private System.Windows.Forms.Label labNuevasAltas;
-        private System.Windows.Forms.Label labListas;
-        private System.Windows.Forms.Label labEliminar;
+        private System.Windows.Forms.Label labTotalPersonasHospital;
+        private System.Windows.Forms.ListBox listBoxPersonasDelHospital;
     }
 }
 

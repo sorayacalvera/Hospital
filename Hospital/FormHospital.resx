@@ -147,169 +147,88 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;labtitle.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>6</value>
   </data>
-  <data name="butAltaMedico.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="butMedico.Font" type="System.Drawing.Font, System.Drawing">
     <value>Century Gothic, 7.8pt, style=Bold</value>
   </data>
-  <data name="butAltaMedico.Location" type="System.Drawing.Point, System.Drawing">
-    <value>732, 277</value>
+  <data name="butMedico.Location" type="System.Drawing.Point, System.Drawing">
+    <value>84, 418</value>
   </data>
-  <data name="butAltaMedico.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="butMedico.Size" type="System.Drawing.Size, System.Drawing">
     <value>126, 50</value>
   </data>
-  <data name="butAltaMedico.TabIndex" type="System.Int32, mscorlib">
+  <data name="butMedico.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="butAltaMedico.Text" xml:space="preserve">
-    <value>Alta médico</value>
+  <data name="butMedico.Text" xml:space="preserve">
+    <value>Médico</value>
   </data>
-  <data name="&gt;&gt;butAltaMedico.Name" xml:space="preserve">
-    <value>butAltaMedico</value>
+  <data name="&gt;&gt;butMedico.Name" xml:space="preserve">
+    <value>butMedico</value>
   </data>
-  <data name="&gt;&gt;butAltaMedico.Type" xml:space="preserve">
+  <data name="&gt;&gt;butMedico.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;butAltaMedico.Parent" xml:space="preserve">
+  <data name="&gt;&gt;butMedico.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;butAltaMedico.ZOrder" xml:space="preserve">
-    <value>10</value>
+  <data name="&gt;&gt;butMedico.ZOrder" xml:space="preserve">
+    <value>5</value>
   </data>
-  <data name="butAltaPaciente.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="butPaciente.Font" type="System.Drawing.Font, System.Drawing">
     <value>Century Gothic, 7.8pt, style=Bold</value>
   </data>
-  <data name="butAltaPaciente.Location" type="System.Drawing.Point, System.Drawing">
-    <value>259, 277</value>
+  <data name="butPaciente.Location" type="System.Drawing.Point, System.Drawing">
+    <value>84, 199</value>
   </data>
-  <data name="butAltaPaciente.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="butPaciente.Size" type="System.Drawing.Size, System.Drawing">
     <value>126, 50</value>
   </data>
-  <data name="butAltaPaciente.TabIndex" type="System.Int32, mscorlib">
+  <data name="butPaciente.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
-  <data name="butAltaPaciente.Text" xml:space="preserve">
-    <value>Alta paciente</value>
+  <data name="butPaciente.Text" xml:space="preserve">
+    <value>Paciente</value>
   </data>
-  <data name="&gt;&gt;butAltaPaciente.Name" xml:space="preserve">
-    <value>butAltaPaciente</value>
+  <data name="&gt;&gt;butPaciente.Name" xml:space="preserve">
+    <value>butPaciente</value>
   </data>
-  <data name="&gt;&gt;butAltaPaciente.Type" xml:space="preserve">
+  <data name="&gt;&gt;butPaciente.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;butAltaPaciente.Parent" xml:space="preserve">
+  <data name="&gt;&gt;butPaciente.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;butAltaPaciente.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="butAltaPersonalAdministrativo.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 7.8pt, style=Bold</value>
-  </data>
-  <data name="butAltaPersonalAdministrativo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>468, 277</value>
-  </data>
-  <data name="butAltaPersonalAdministrativo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>126, 50</value>
-  </data>
-  <data name="butAltaPersonalAdministrativo.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;butPaciente.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="butAltaPersonalAdministrativo.Text" xml:space="preserve">
-    <value>Alta personal administrativo</value>
-  </data>
-  <data name="&gt;&gt;butAltaPersonalAdministrativo.Name" xml:space="preserve">
-    <value>butAltaPersonalAdministrativo</value>
-  </data>
-  <data name="&gt;&gt;butAltaPersonalAdministrativo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;butAltaPersonalAdministrativo.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;butAltaPersonalAdministrativo.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="butListarMedicos.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="butPersonalAdministrativo.Font" type="System.Drawing.Font, System.Drawing">
     <value>Century Gothic, 7.8pt, style=Bold</value>
   </data>
-  <data name="butListarMedicos.Location" type="System.Drawing.Point, System.Drawing">
-    <value>259, 386</value>
+  <data name="butPersonalAdministrativo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>84, 299</value>
   </data>
-  <data name="butListarMedicos.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="butPersonalAdministrativo.Size" type="System.Drawing.Size, System.Drawing">
     <value>126, 50</value>
   </data>
-  <data name="butListarMedicos.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+  <data name="butPersonalAdministrativo.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
   </data>
-  <data name="butListarMedicos.Text" xml:space="preserve">
-    <value>Listar médicos</value>
+  <data name="butPersonalAdministrativo.Text" xml:space="preserve">
+    <value>Personal administrativo</value>
   </data>
-  <data name="&gt;&gt;butListarMedicos.Name" xml:space="preserve">
-    <value>butListarMedicos</value>
+  <data name="&gt;&gt;butPersonalAdministrativo.Name" xml:space="preserve">
+    <value>butPersonalAdministrativo</value>
   </data>
-  <data name="&gt;&gt;butListarMedicos.Type" xml:space="preserve">
+  <data name="&gt;&gt;butPersonalAdministrativo.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;butListarMedicos.Parent" xml:space="preserve">
+  <data name="&gt;&gt;butPersonalAdministrativo.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;butListarMedicos.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="butListarPacientesMedico.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 7.8pt, style=Bold</value>
-  </data>
-  <data name="butListarPacientesMedico.Location" type="System.Drawing.Point, System.Drawing">
-    <value>468, 386</value>
-  </data>
-  <data name="butListarPacientesMedico.Size" type="System.Drawing.Size, System.Drawing">
-    <value>126, 50</value>
-  </data>
-  <data name="butListarPacientesMedico.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="butListarPacientesMedico.Text" xml:space="preserve">
-    <value>Listar pacientes de un médico</value>
-  </data>
-  <data name="&gt;&gt;butListarPacientesMedico.Name" xml:space="preserve">
-    <value>butListarPacientesMedico</value>
-  </data>
-  <data name="&gt;&gt;butListarPacientesMedico.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;butListarPacientesMedico.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;butListarPacientesMedico.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="butEliminarPaciente.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 7.8pt, style=Bold</value>
-  </data>
-  <data name="butEliminarPaciente.Location" type="System.Drawing.Point, System.Drawing">
-    <value>259, 492</value>
-  </data>
-  <data name="butEliminarPaciente.Size" type="System.Drawing.Size, System.Drawing">
-    <value>126, 50</value>
-  </data>
-  <data name="butEliminarPaciente.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="butEliminarPaciente.Text" xml:space="preserve">
-    <value>Eliminar Paciente</value>
-  </data>
-  <data name="&gt;&gt;butEliminarPaciente.Name" xml:space="preserve">
-    <value>butEliminarPaciente</value>
-  </data>
-  <data name="&gt;&gt;butEliminarPaciente.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;butEliminarPaciente.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;butEliminarPaciente.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="&gt;&gt;butPersonalAdministrativo.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="butSalir.Font" type="System.Drawing.Font, System.Drawing">
     <value>Century Gothic, 7.8pt, style=Bold</value>
@@ -336,123 +255,60 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;butSalir.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="butTotalPersonasHospital.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 7.8pt, style=Bold</value>
-  </data>
-  <data name="butTotalPersonasHospital.Location" type="System.Drawing.Point, System.Drawing">
-    <value>732, 371</value>
-  </data>
-  <data name="butTotalPersonasHospital.Size" type="System.Drawing.Size, System.Drawing">
-    <value>126, 65</value>
-  </data>
-  <data name="butTotalPersonasHospital.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="butTotalPersonasHospital.Text" xml:space="preserve">
-    <value>Lista total de personas del Hospital</value>
-  </data>
-  <data name="&gt;&gt;butTotalPersonasHospital.Name" xml:space="preserve">
-    <value>butTotalPersonasHospital</value>
-  </data>
-  <data name="&gt;&gt;butTotalPersonasHospital.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;butTotalPersonasHospital.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;butTotalPersonasHospital.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="labNuevasAltas.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="labNuevasAltas.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 10.2pt, style=Bold</value>
-  </data>
-  <data name="labNuevasAltas.Location" type="System.Drawing.Point, System.Drawing">
-    <value>42, 291</value>
-  </data>
-  <data name="labNuevasAltas.Size" type="System.Drawing.Size, System.Drawing">
-    <value>115, 19</value>
-  </data>
-  <data name="labNuevasAltas.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="labNuevasAltas.Text" xml:space="preserve">
-    <value>Nuevas altas</value>
-  </data>
-  <data name="&gt;&gt;labNuevasAltas.Name" xml:space="preserve">
-    <value>labNuevasAltas</value>
-  </data>
-  <data name="&gt;&gt;labNuevasAltas.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labNuevasAltas.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;labNuevasAltas.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="labListas.AutoSize" type="System.Boolean, mscorlib">
+  <data name="labTotalPersonasHospital.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="labListas.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 10.2pt, style=Bold</value>
+  <data name="labTotalPersonasHospital.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 13.8pt, style=Bold</value>
   </data>
-  <data name="labListas.Location" type="System.Drawing.Point, System.Drawing">
-    <value>63, 400</value>
+  <data name="labTotalPersonasHospital.Location" type="System.Drawing.Point, System.Drawing">
+    <value>641, 161</value>
   </data>
-  <data name="labListas.Size" type="System.Drawing.Size, System.Drawing">
-    <value>51, 19</value>
+  <data name="labTotalPersonasHospital.Size" type="System.Drawing.Size, System.Drawing">
+    <value>249, 27</value>
   </data>
-  <data name="labListas.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
+  <data name="labTotalPersonasHospital.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
   </data>
-  <data name="labListas.Text" xml:space="preserve">
-    <value>Listas</value>
+  <data name="labTotalPersonasHospital.Text" xml:space="preserve">
+    <value>Personas del Hospital</value>
   </data>
-  <data name="&gt;&gt;labListas.Name" xml:space="preserve">
-    <value>labListas</value>
+  <data name="&gt;&gt;labTotalPersonasHospital.Name" xml:space="preserve">
+    <value>labTotalPersonasHospital</value>
   </data>
-  <data name="&gt;&gt;labListas.Type" xml:space="preserve">
+  <data name="&gt;&gt;labTotalPersonasHospital.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;labListas.Parent" xml:space="preserve">
+  <data name="&gt;&gt;labTotalPersonasHospital.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;labListas.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;labTotalPersonasHospital.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="labEliminar.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="listBoxPersonasDelHospital.ItemHeight" type="System.Int32, mscorlib">
+    <value>16</value>
   </data>
-  <data name="labEliminar.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Century Gothic, 10.2pt, style=Bold</value>
+  <data name="listBoxPersonasDelHospital.Location" type="System.Drawing.Point, System.Drawing">
+    <value>646, 199</value>
   </data>
-  <data name="labEliminar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>42, 506</value>
+  <data name="listBoxPersonasDelHospital.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 276</value>
   </data>
-  <data name="labEliminar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>72, 19</value>
+  <data name="listBoxPersonasDelHospital.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
   </data>
-  <data name="labEliminar.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
+  <data name="&gt;&gt;listBoxPersonasDelHospital.Name" xml:space="preserve">
+    <value>listBoxPersonasDelHospital</value>
   </data>
-  <data name="labEliminar.Text" xml:space="preserve">
-    <value>Eliminar</value>
+  <data name="&gt;&gt;listBoxPersonasDelHospital.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;labEliminar.Name" xml:space="preserve">
-    <value>labEliminar</value>
-  </data>
-  <data name="&gt;&gt;labEliminar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labEliminar.Parent" xml:space="preserve">
+  <data name="&gt;&gt;listBoxPersonasDelHospital.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;labEliminar.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;listBoxPersonasDelHospital.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -464,7 +320,7 @@
   <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wQAADsEBuJFr7QAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAFSXSURBVHhe7d0H
+        vwAADr8BOAVTJAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAFSXSURBVHhe7d0H
         mBPV/sZxd5fO0qsUpXeQKk0RBJTeOwiIBRAEsRfsXUG92HtXRMQG2BXFLipIF3sBsdBB773q+Z+Tvfjf
         YX/ZzCSZ7JnM932ez3O9S3JyZpKd827K5CBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGE
         EEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGE
@@ -843,7 +699,7 @@
     <value>Hospital</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>Hospital</value>
+    <value>FormHospital</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>

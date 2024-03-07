@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace Hospital
 {
     internal static class Program
@@ -24,15 +25,16 @@ namespace Hospital
 
                 Console.WriteLine("Ingrese datos medico:");
                 Console.WriteLine("Ingrese numero de colegiado:");
-                int numCol = int.Parse(Console.ReadLine());
+                int numColegiado = int.Parse(Console.ReadLine());
                 Console.WriteLine("Ingrese nombre:");
-                string nomMedic = Console.ReadLine();
+                string txtNombre = Console.ReadLine();
                 Console.WriteLine("Ingrese apellido:");
-                string apelliMedic = Console.ReadLine();
+                string txtApellido = Console.ReadLine();
                 Console.WriteLine("Ingrese DNI:");
-                int dniMedic = int.Parse(Console.ReadLine());
+                int dniMedico = int.Parse(Console.ReadLine());
 
-                hospital.AltaMedico(numCol, nomMedic, apelliMedic, dniMedic);
+            Medico medico1 = new Medico(numColegiado, txtNombre, txtApellido, dniMedico);
+
             }
             static void AltaAdministrativo()
             {

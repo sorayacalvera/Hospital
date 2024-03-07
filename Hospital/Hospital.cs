@@ -39,11 +39,9 @@ namespace Hospital
                 paciente.MedicoAsignado = medico;
 
             }
-            public void AltaMedico(int numCol, string nomMedic, string apelliMedic, int dniMedic)
+            public void AltaMedico(Medico medico)
             {
-
-                Medico medico1 = new Medico(numCol, nomMedic, apelliMedic, dniMedic);
-                Medicos.Add(medico1);
+                Medicos.Add(medico);
             }
 
             public void AltaAdministrativo(int numeroTrabajador, string nombre,

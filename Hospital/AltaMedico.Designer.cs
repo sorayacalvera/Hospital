@@ -40,8 +40,6 @@
             this.txtNumColegiado = new System.Windows.Forms.TextBox();
             this.butGuardar = new System.Windows.Forms.Button();
             this.butSalir = new System.Windows.Forms.Button();
-            this.labListarMedicos = new System.Windows.Forms.Label();
-            this.listBoxMedico = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // labAltaMedico
@@ -124,7 +122,7 @@
             // 
             // butGuardar
             // 
-            this.butGuardar.Location = new System.Drawing.Point(442, 294);
+            this.butGuardar.Location = new System.Drawing.Point(574, 218);
             this.butGuardar.Name = "butGuardar";
             this.butGuardar.Size = new System.Drawing.Size(75, 23);
             this.butGuardar.TabIndex = 9;
@@ -134,32 +132,13 @@
             // 
             // butSalir
             // 
-            this.butSalir.Location = new System.Drawing.Point(860, 652);
+            this.butSalir.Location = new System.Drawing.Point(895, 718);
             this.butSalir.Name = "butSalir";
             this.butSalir.Size = new System.Drawing.Size(75, 23);
             this.butSalir.TabIndex = 10;
             this.butSalir.Text = "Salir";
             this.butSalir.UseVisualStyleBackColor = true;
             this.butSalir.Click += new System.EventHandler(this.butSalir_Click);
-            // 
-            // labListarMedicos
-            // 
-            this.labListarMedicos.AutoSize = true;
-            this.labListarMedicos.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labListarMedicos.Location = new System.Drawing.Point(27, 334);
-            this.labListarMedicos.Name = "labListarMedicos";
-            this.labListarMedicos.Size = new System.Drawing.Size(170, 27);
-            this.labListarMedicos.TabIndex = 11;
-            this.labListarMedicos.Text = "Listar Médicos";
-            // 
-            // listBoxMedico
-            // 
-            this.listBoxMedico.FormattingEnabled = true;
-            this.listBoxMedico.ItemHeight = 16;
-            this.listBoxMedico.Location = new System.Drawing.Point(94, 393);
-            this.listBoxMedico.Name = "listBoxMedico";
-            this.listBoxMedico.Size = new System.Drawing.Size(452, 260);
-            this.listBoxMedico.TabIndex = 12;
             // 
             // AltaMedico
             // 
@@ -169,8 +148,6 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(982, 753);
-            this.Controls.Add(this.listBoxMedico);
-            this.Controls.Add(this.labListarMedicos);
             this.Controls.Add(this.butSalir);
             this.Controls.Add(this.butGuardar);
             this.Controls.Add(this.txtNumColegiado);
@@ -203,7 +180,5 @@
         private System.Windows.Forms.TextBox txtNumColegiado;
         private System.Windows.Forms.Button butGuardar;
         private System.Windows.Forms.Button butSalir;
-        private System.Windows.Forms.Label labListarMedicos;
-        private System.Windows.Forms.ListBox listBoxMedico;
     }
 }
